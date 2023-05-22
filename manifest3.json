@@ -2,19 +2,18 @@
     "name": "SAARTHI",
     "short_name": "SAARTHI",
     "icons": [
-      {
-        "src": "/smart.svg",
-        "sizes": "any",
-        "type": "image/svg+xml",
-        "purpose": "any"
-      },
-      {
-        "src": "/smart2.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
-      }
-      
+        {
+            "src": "/smart.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/smart2.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
     ],
     "lang": "en-US",
     "start_url": "/index.html",
@@ -24,24 +23,24 @@
     "prefer_related_applications": false,
     "description": "View total number of cylinders in the Godown",
     "screenshots": [
-      {
-        "src": "/smart.svg",
-        "type": "image/svg+xml",
-        "sizes": "1836x1836"
-      },
-      {
-        "src": "/smart.svg",
-        "type": "image/svg+xml",
-        "sizes": "1836x1836"
-      }
+        {
+            "src": "/smart.svg",
+            "type": "image/svg+xml",
+            "sizes": "1836x1836"
+        },
+        {
+            "src": "/smart.svg",
+            "type": "image/svg+xml",
+            "sizes": "1836x1836"
+        }
     ],
     "orientation": "natural",
     "display_override": [
-      "standalone"
+        "standalone"
     ],
     "dir": "ltr",
     "categories": [
-      "business",
-      "utilities"
+        "business",
+        "utilities"
     ]
-  }
+}
