@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Saarthi</title>
+  
+  <link rel="manifest" href="/manifest3.json">
+  <link rel="apple-touch-icon" href="/smart.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="white"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Hello World">
+  <meta name="msapplication-TileImage" content="/smart.jpg">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta property="og:image" content="/smart.jpg">
+  <link rel="icon" type="image/png" sizes="196x196" href="/smart.jpg">
+    <link rel="shortcut icon" href="/smart.svg">
+  <style>
+     #btn{
+    border:0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220,0,0,1);
+    background-image: linear-gradient(to top left, rgba(0,0,0,.2),rgba(0,0,0,.2)30%,rgba(0,0,0,0));
+    box-shadow: inset 2px 2px 3px rgba(255,255,255,.6),inset -2px -2px 3px rgba(0, 0, 0, .6);
+    
+    
+  }
+
+  #btn:hover {
+    background-color: rgba(255,0,0,1);
+
+  }
+  #btn:active{
+    box-shadow: inset -2px -2px 3px rgba(255,255,255,.6), inset 2px 2px 3px rgba(0,0,0,.6);
+  }
+  
+  
+  /*This works for mobile devices*/
+  @media screen and (max-device-width:450px) and (max-device-height:950px) and (min-device-width:320px) and (min-device-height:600px) {
+ 
+  #txt{
+      font-size: 80px;
+      display:block;
+  }
+  
+  #btn{
+    border:0;
+    line-height: 3.5;
+    padding: 0px 95px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 15px;
+    background-color: rgba(220,0,0,1);
+    background-image: linear-gradient(to top left, rgba(0,0,0,.2),rgba(0,0,0,.2)30%,rgba(0,0,0,0));
+    box-shadow: inset 2px 2px 3px rgba(255,255,255,.6),inset -2px -2px 3px rgba(0, 0, 0, .6);
+    position: relative;
+    left: 20%;
+    
+  }
+
+  #btn:hover {
+    background-color: rgba(255,0,0,1);
+
+  }
+  #btn:active{
+    box-shadow: inset -2px -2px 3px rgba(255,255,255,.6), inset 2px 2px 3px rgba(0,0,0,.6);
+  }
+  
+  .dbem{
+      font-size: 50px;
+  }
+  h3{
+      font-size: 35px;
+  }
+  
+  } 
+  
+
+  @media screen and (min-width:721px) {
+  #tg {
+    font-size: 50px;
+  }
+  #txt{
+      font-size: 40px;
+  }
+  
+  
+}
+
+
+</style>
+</head>
+<body >
+  
+    <h1 class="title">Hello World!</h1>
+    <a href='login4.php'><button id='btn'>LOGIN NOW</button></a>
+    <br><br>
+    <a href='mozilaclone.html'><button id='btn'>Cash Calculator</button></a><br><br>
+    </body>
+  
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('pwabuilder2-sw.js')
+  }
+  </script>
+</html>
